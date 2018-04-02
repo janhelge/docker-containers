@@ -8,5 +8,5 @@ The following command will start clair using a custom configuration file and wit
 logging level set to debug:
 
 ```
-$ docker run --rm -p 6060:606 -p 6061:6061 -v `pwd`/config.yaml:/config/config.yaml:ro opensuse/clair -config /config/config.yaml -log-level debug
+$ docker run --rm -p 6060:6060 -p 6061:6061 -v `pwd`/config.yaml:/config/config.yaml:ro opensuse/clair -config /config/config.yaml -log-level debug
 ```
